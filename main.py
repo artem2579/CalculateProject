@@ -24,6 +24,7 @@ def set():
         except ValueError:
             mb.showerror("Ошибка", "Неверный формат времени")
 
+
 def check():
     global t
     if t:
